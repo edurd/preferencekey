@@ -1,7 +1,5 @@
 # Understanding PreferenceKey in SwiftUI
 
----
-
 ## The Secret Sauce for Passing Data Up the View Hierarchy
 
 If you’ve ever worked with SwiftUI, you probably know that data flows *down* the view tree really well — like with `@State`, `@Binding`, `@ObservedObject`, etc. But what if you need to pass data **up** the view hierarchy?
@@ -153,3 +151,5 @@ You can mix `PreferenceKey` with `AnchorPreference` and `alignmentGuide` to crea
 - It’s great for layout info, scroll tracking, and collecting values.
 - You define a custom key, set preferences in children, and read them in parents.
 - It’s a one-way upward data channel — not meant for syncing or bindings.
+
+There is an [article (https://medium.com/@edu.hoyos/understanding-preferencekey-in-swiftui-4e9946ec6a4a)][article] on this
