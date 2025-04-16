@@ -152,4 +152,4 @@ You can mix `PreferenceKey` with `AnchorPreference` and `alignmentGuide` to crea
 - You define a custom key, set preferences in children, and read them in parents.
 - It’s a one-way upward data channel — not meant for syncing or bindings.
 
-There is an [article (https://medium.com/@edu.hoyos/understanding-preferencekey-in-swiftui-4e9946ec6a4a)][article] on this
+There is an [article](https://medium.com/@edu.hoyos/understanding-preferencekey-in-swiftui-4e9946ec6a4a) on this
